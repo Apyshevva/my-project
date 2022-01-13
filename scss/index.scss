@@ -1,0 +1,33 @@
+@import './components/header';
+@import './components/footer';
+
+
+@import './helpers/mixins';
+@import './helpers/variables';
+
+@import './sections/hero';
+@import './sections/services';
+@import './sections/information';
+@import './sections/price';
+@import './sections/customer';
+@import './sections/mobile';
+
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+

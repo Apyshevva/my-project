@@ -1,0 +1,60 @@
+.services{
+    padding-bottom: 110px ;
+    h5{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        color: #001E42;
+    }
+    &__pupa {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        align-self: flex-end;
+        
+        h3{
+            padding-left: 25px;
+        }
+    }
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+  
+        
+        
+    }
+     &__column {
+       width: 33.33%;
+     }
+     &__comp {
+         max-width: 166px;
+    }
+     &__server {
+        max-width: 166px;
+     }
+     &__virt {
+         max-width: 166px;
+     }
+     &__audit {
+         max-width: 231px;
+     }
+    &__copy{
+         max-width: 217px;
+     }
+     &__infra {
+        max-width: 200px;
+    }
+
+}
+.lupa{
+    margin-top: 60px;
+}
+.dupa{
+    margin-top: 48px;
+}
+.supa{
+    margin-top: 60px;
+}

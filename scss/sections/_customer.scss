@@ -1,0 +1,57 @@
+.customer{
+    &__title{
+        margin-top: 100px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        color: #001E42;
+
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__p{
+        display: flex;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 120%;
+        color: #A5AAAF;
+        align-self: flex-end;
+        .hohoho{
+            max-width: 530px;
+            height: 370px;
+        }
+    }
+    &__list{
+        max-width: 530px;
+        padding-left: 30px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    h3{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #A5AAAF;
+        padding-top: 66px;
+    }
+}
+.kokoko:hover{
+    filter: grayscale(0);
+    
+}
+.kokoko{
+    cursor: pointer;
+    filter: grayscale(100);
+    transition: all 0.4s ease;
+}
